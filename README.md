@@ -1,3 +1,6 @@
+# 2，ng2-内置指令
+介绍了ngIf ngModel的用法，引入FormsModule库
+
 # 1,ng2-基础模块
 一个最简单的demo，介绍了模块的加载流程与必要文件
 

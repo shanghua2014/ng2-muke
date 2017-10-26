@@ -10,6 +10,7 @@ import { Component, OnInit } from '@angular/core';
 
 export class AppComponent implements OnInit {
     private greeting:string;
+    private isShowModule:boolean;
     constructor() { }
 
     ngOnInit() {
