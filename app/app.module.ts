@@ -7,6 +7,7 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent }  from './app.component';
 import { HighlightDirective } from './highlight.directive';
+import { LoggerService } from './logger.service';
 
 @NgModule({
     declarations: [    // 引入自定义指令
@@ -17,7 +18,7 @@ import { HighlightDirective } from './highlight.directive';
         BrowserModule,
         FormsModule
     ],
-    providers: [],
+    providers: [ LoggerService ],    // 注入服务
     bootstrap: [ AppComponent ]
 })
 export class AppModule {}
