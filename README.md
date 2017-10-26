@@ -1,3 +1,6 @@
+# 1,ng2-基础模块
+一个最简单的demo，介绍了模块的加载流程与必要文件
+
 # Angular2-Demo
 慕课网课程《[Angular2一小时快速入门](http://www.imooc.com/learn/789)》代码实操的示例代码。
 
