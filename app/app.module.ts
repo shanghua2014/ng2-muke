@@ -8,11 +8,13 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent }  from './app.component';
 import { HighlightDirective } from './highlight.directive';
 import { LoggerService } from './logger.service';
+import { ChildComponent } from './child.component';
 
 @NgModule({
     declarations: [    // 引入自定义指令
         AppComponent,
-        HighlightDirective
+        HighlightDirective,
+        ChildComponent
     ],
     imports: [    // 引入模块
         BrowserModule,

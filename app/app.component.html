@@ -2,4 +2,7 @@
 <div>
     <label><input type="checkbox" [(ngModel)]="isShowModule">是否显示信息</label>
     <p *ngIf="isShowModule" highlight>Angular是个很好用的框架!</p>
+    
+    <child [message]="msgToChild" (outer)="receive($event)"></child>
+    <p>来自级的消息：{{ msgFromChild }}</p>
 </div>
